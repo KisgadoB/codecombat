@@ -64,7 +64,7 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
     achievements: "Eredmények" # Tooltip on achievement list button from /play
     account: "Fiók" # Tooltip on account button from /play
     settings: "Beállítások" # Tooltip on settings button from /play
-#    poll: "Poll" # Tooltip on poll button from /play
+    poll: "Szavazás" # Tooltip on poll button from /play
     next: "Következő" # Go from choose hero to choose inventory before playing a level
     change_hero: "Hős váltás" # Go back from choose inventory to choose hero
     choose_inventory: "Felszerelés"
@@ -439,15 +439,15 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
 #    parents_blurb1a: "Computer programming is an essential skill that your child will undoubtedly use as an adult. By 2020, basic software skills will be needed by 77% of jobs, and software engineers are in high demand across the world. Did you know that Computer Science is the highest-paid university degree?"
     parents_blurb2: "Havonta 9,99 USD-ért, minden héten új kihívások elé állítjuk őket és személyre szóló emailes támogatást nyújtanak enkik profi programozók." # {change}
     parents_blurb3: "100%-os pénzvisszafizetés garancia: 1-kattintásossal leiratkozhat."
-#    payment_methods: "Payment Methods"
-#    payment_methods_title: "Accepted Payment Methods"
+    payment_methods: "Fizetési módok"
+    payment_methods_title: "Elfogadott fizetési módok"
 #    payment_methods_blurb1: "We currently accept credit cards and Alipay."
-#    payment_methods_blurb2: "If you require an alternate form of payment, please contact"
+    payment_methods_blurb2: "Ha más fizetési módodt szeretne, lépjen kapcsolatba velünk"
     stripe_description: "Havi előfizetés"
     subscription_required_to_play: "Ehhez a szinthez elő kell fizetnek."
     unlock_help_videos: "Végy előfizetést, hogy feloldd az összes videó oktatóanyagot."
 #    personal_sub: "Personal Subscription" # Accounts Subscription View below
-#    loading_info: "Loading subscription information..."
+    loading_info: "Előfizetési információk betöltése..."
 #    managed_by: "Managed by"
 #    will_be_cancelled: "Will be cancelled on"
 #    currently_free: "You currently have a free subscription"
@@ -564,12 +564,12 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
     why_paragraph_2_italic: "ezaz, kitüntetés"
 #    why_paragraph_2_center: "but fun like"
     why_paragraph_2_italic_caps: "NE ANYA, BE KELL FEJEZNEM A PÁLYÁT!"
-#    why_paragraph_2_suffix: "That's why CodeCombat is a multiplayer game, not a gamified lesson course. We won't stop until you can't stop--but this time, that's a good thing."
-#    why_paragraph_3: "If you're going to get addicted to some game, get addicted to this one and become one of the wizards of the tech age."
-#    press_title: "Bloggers/Press"
-#    press_paragraph_1_prefix: "Want to write about us? Feel free to download and use all of the resources included in our"
-#    press_paragraph_1_link: "press packet"
-#    press_paragraph_1_suffix: ". All logos and images may be used without contacting us directly."
+    why_paragraph_2_suffix: "Ez az amiért a CodeCombat egy multiplayer játék, és nem egy játékosított oktatóanyag. Mi nem fogunk leállni amíg te nem tudsz leállni--de ezúttal ez egy jó dolog."
+    why_paragraph_3: "Ha már úgy is játékfüggő leszel, akkor ezt a játékot válaszd, és válj a technológiai kor egyik új mágusává."
+    press_title: "Bloggerek/Média"
+    press_paragraph_1_prefix: "Írna rólunk? Töltse le, és használja nyugodtan az anyagot amit megtalálható a"
+    press_paragraph_1_link: "média csomagban"
+    press_paragraph_1_suffix: ". Minden logo és kép felhasználható anélkül, hogy külön emiatt kapcsolatba lépne velünk."
     team: "Csapat"
     george_title: "Főigazgató" # {change}
     george_blurb: "Üzletelő"
@@ -582,12 +582,12 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
     matt_title: "Programozó" # {change}
     matt_blurb: "Bringás"
 #    cat_title: "Chief Artisan"
-#    cat_blurb: "Airbender"
-#    josh_title: "Game Designer"
+    cat_blurb: "Léghajlító"
+    josh_title: "Játéktervező"
 #    josh_blurb: "Floor Is Lava"
-#    jose_title: "Music"
+    jose_title: "Zene"
 #    jose_blurb: "Taking Off"
-#    retrostyle_title: "Illustration"
+    retrostyle_title: "Illusztráció"
 #    retrostyle_blurb: "RetroStyle Games"
 
   teachers:
@@ -609,7 +609,7 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
     sub_includes_5: "7 új hős egyedi képességekkel"
     sub_includes_6: "3500 bónusz drágakő minden hónapban"
 #    sub_includes_7: "Private Clans"
-#    monitor_progress_title: "How do I monitor student progress?"
+    monitor_progress_title: "Hogyan követhetem a tanulók fejlődését?"
 #    monitor_progress_1: "Student progress can be monitored by creating a"
 #    monitor_progress_2: "for your class."
 #    monitor_progress_3: "To add a student, send them the invite link for your Clan, which is on the"
@@ -903,7 +903,7 @@ module.exports = nativeDescription: "magyar", englishDescription: "Hungarian", t
 
 #  contribute:
 #    page_title: "Contributing"
-#    intro_blurb: "CodeCombat is 100% open source! Hundreds of dedicated players have helped us build the game into what it is today. Join us and write the next chapter in CodeCombat's quest to teach the world to code!"
+    intro_blurb: "A CodeCombat 100% open source! Többszáz elkötelezett játékos segített, hogy olyannát együk a játékot mint amilyen most. Csatlakozz hozzánk, és írd meg a CodeCombat következő fejezetét, és tanítsd programozásra az egész világot!"
 #    alert_account_message_intro: "Hey there!"
 #    alert_account_message: "To subscribe for class emails, you'll need to be logged in first."
 #    archmage_introduction: "One of the best parts about building games is they synthesize so many different things. Graphics, sound, real-time networking, social networking, and of course many of the more common aspects of programming, from low-level database management, and server administration to user facing design and interface building. There's a lot to do, and if you're an experienced programmer with a hankering to really dive into the nitty-gritty of CodeCombat, this class might be for you. We would love to have your help building the best programming game ever."
